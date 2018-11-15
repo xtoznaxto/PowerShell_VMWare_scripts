@@ -11,7 +11,7 @@ $os_cust = Get-OSCustomizationSpec -Name hostname_cust
 $res_pull = Get-ResourcePool -Name Swift
 
 $csv = @()
-$csv = Import-CSV -Path 'C:\Users\Documents\HPI-vms_swift_1.csv' -Delimiter ";"  | Where {$_.vm_name}
+$csv = Import-CSV -Path 'https://github.com/xtoznaxto/PowerShell_VMWare_scripts/blob/master/vSphere_new_vm_csv_example.csv' -Delimiter ";"  | Where {$_.vm_name}
 $csv | % {
     $_.vm_name = $_.vm_name.Trim()
     $_.cpu = $_.cpu.Trim()
