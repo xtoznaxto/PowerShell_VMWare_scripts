@@ -1,0 +1,2 @@
+vm_name;cpu;ramGb;ip;mask;gateway;etalon;network
+new-vm-name;2;4;10.1.1.112;255.255.255.0;10.1.1.1;etalon-ubuntu;vxw-dvs-vxlan-10.1.1
