@@ -1,2 +1,2 @@
-# PowerShell_VMWare_scripts
-Scripts for managing vCloudDirector and vSphere 
+# Python & PowerShell scripts
+Some scripts samples including scripts for managing vCloudDirector and vSphere 
